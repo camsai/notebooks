@@ -1,0 +1,14 @@
+# This manifest file is used to install the required packages for the corresponding notebook.
+# The following types of kernels are supported:
+# 1. python
+# 2. pyodide
+# Accordingly, the packages are installed using the kernel type, e.g., packages_pyodide.
+# The default packages are installed for all the notebooks.
+default:
+  packages_common:
+  packages_python:
+  packages_pyodide:
+notebooks:
+  - name: validate_data.ipynb
+    packages_common:
+      - mat3ra-esse
