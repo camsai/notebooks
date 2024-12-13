@@ -59,7 +59,7 @@ jobs:
         uses: ./actions/py/pytest
         with:
           python-version: ${{ matrix.python-version }}
-          unit-test-directory: ./
+          unit-test-directory: tests/
 
   publish-py-package:
     needs:
